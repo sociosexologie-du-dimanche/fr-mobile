@@ -1,0 +1,320 @@
+/* Elements html globaux */
+
+body {
+    font-family: 'droid', Arial, sans-serif;
+    color: #004C59;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    color: #004C59;
+    text-decoration: none;
+}
+
+p {
+    text-align : justify;
+    padding: 2px ;
+}
+
+
+/* Volet de navigation et tooltips associés */
+
+nav {
+    box-sizing: border-box ;
+	font-family: 'droid-bold', Arial, sans-serif;
+    color: #0E5348;
+    height : 100px ;
+	width:100%;
+	left: 0px;
+    top: 0px;
+    position : absolute ;
+	background:#FFD6DD;
+    padding : 5px 10% ;
+    font-size : 0.9em ;
+    z-index: 10 ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6) ;
+}
+
+
+nav a {
+	color: #0E5348;
+    text-decoration: none; 
+}
+
+nav div {
+    box-sizing: padding-box ;
+    padding : 10px 5px 10px 0px;
+    display : inline-block;
+    width : 46% ;
+    text-align : center ;
+}
+
+/* Footer */
+
+footer {
+    box-sizing: border-box ;
+    display: block;
+    background-color : rgba(30,30,30,0.8) ;
+    padding : 20px 10px ;
+    color : rgb(255,255,255) ;
+    width: 100%;
+    font-size : 0.8em;
+    font-family: 'droid';
+    box-shadow: 0 0 10px rgba(0,0,0,0.6) ;
+}
+
+footer ul {
+    list-style-image: url('Images/coeur.png') ;
+}
+
+footer a {
+    color: rgba(200,200,200,0.8) ;
+}
+
+#contact a {
+    margin-left : 10px ;
+}
+/* Fin footer */
+
+
+/* Identités du corps de document */
+#banniere {
+	font-family: 'poetsen', serif;
+	font-size: 1.5em;
+    width: 95% ;
+    padding-top : 260px ;
+    margin-left:4% ;
+    margin-bottom : 80% ;
+	line-height: 1.2em;
+	text-align: left;
+}
+
+#warning {
+    font-size: 0.8em ;
+    position : absolute ;
+    top : 105px ;
+}
+
+#warning p {
+    margin-left: 35px ;
+    margin-right : 15px ;
+    padding : 10px 15px ;
+    text-align : justify ;
+    background-color: rgba(30,30,30,0.8) ;
+    color : #FFFFFF ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6) ;
+}
+
+#pIntro {
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    text-align: justify;
+}
+
+
+
+
+
+/* Identités pour les graphiques et autres animations */
+#listePam {
+    position: relative ;
+    margin-top : 60px ;
+    margin-bottom : 50px ;
+}
+
+#liensPam p {
+    width : 70% ;
+    text-align : left ;
+    margin : 3% auto ;
+    font-size : 0.8em ;
+}
+
+
+#treemap {
+    min-width : 200px ;
+    min-height : 10px ;
+    width:80%;
+    height:40% ;
+    margin : 0 auto ;
+}
+
+#polsodo {
+    height : 400px ;
+    
+    max-width : 600px ;
+    min-width : 300px ; 
+}
+
+
+.bloc_histoire {
+    box-sizing: border-box ;
+    position:relative;
+    width:100%;
+    background: #FFFFFF;
+    margin: 0px auto 0px auto ;
+    padding : 20px 0px 400px 0px ;
+}
+.bloc_histoire:nth-of-type(1) {
+    background: linear-gradient(rgba(255,255,255,0),white),url('Images/capotes.jpg') no-repeat center center fixed ;
+}
+.bloc_histoire:nth-of-type(2) {
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/priest2.jpg') no-repeat center center fixed ;
+    background-size : cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.bloc_histoire:nth-of-type(3) {
+    background: linear-gradient(white,rgba(255,255,255,0),white), url('Images/blueV.jpg') no-repeat center center  fixed  ;
+    background-size : cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.bloc_histoire:nth-of-type(4) {
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/titanic.jpg') no-repeat center center fixed ;
+    background-size : cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.bloc_histoire:nth-of-type(5) {
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/EWS.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.bloc_histoire:nth-of-type(6) {
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/VCB.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.titre {
+    font-family: 'poetsen', 'Gill Sans', Arial, sans-serif;
+    display : block ;
+    text-align: center;
+    color: #004C59;
+    margin: 0 auto 10px auto;
+    font-size : 1.5em ;
+    min-height: 50px;
+}
+.titre_subsection {
+	font-family: 'raleway','Gill Sans', serif;
+	font-size: 1.1em;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #0E5348;
+	position: relative;
+}
+
+.pPleinePage, .commentaire p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.emph { 
+	color: #0092B9;
+}
+.chiffre {
+    color: #CBA148; 
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+/* Classes pour le script quizz */
+
+.fenetre {
+    position:relative;
+    display:block;
+    width: 100%;
+    margin: 10px auto 30px auto;
+}
+.infographie {
+    display:block;
+    max-width : 100%;
+    padding : 0px 0px ;
+    margin : 10px auto 0px auto ;
+}
+.commentaire {
+    display:block;
+    text-align : justify;
+    padding : 0px 0px ;
+    margin : 10px auto ;
+}
+
+
+/*Il va falloir changer celui-là pour qu'il affiche les bonhommes et les chiffres en dessous' */
+/* Script infographie cathos */
+
+#chiffreInfoCathos {
+    padding : 5px 5px ;
+    margin : 10% auto 20px auto ;
+    text-align : center ;
+    font-family: 'droid-bold' ;
+    font-size : 1em ;
+}
+.oui,.non {
+    margin-right: 3px ;
+}
+
+.pictoCatho {
+    width : 90% ;
+    margin : 5px 5% ;
+}
+
+/* Famille de fontes */
+
+@font-face {
+    font-family: 'poetsen';
+    src: url('Police/PoetsenOne-Regular-webfont.eot');
+    src: url('Police/PoetsenOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Police/PoetsenOne-Regular-webfont.woff') format('woff'),
+         url('Police/PoetsenOne-Regular-webfont.ttf') format('truetype'),
+         url('Police/PoetsenOne-Regular-webfont.svg#poetsenoneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid-bold';
+    src: url('Police/DroidSans-Bold-webfont.eot');
+    src: url('Police/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Police/DroidSans-Bold-webfont.woff') format('woff'),
+         url('Police/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('Police/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid';
+    src: url('Police/DroidSans-webfont.eot');
+    src: url('Police/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Police/DroidSans-webfont.woff') format('woff'),
+         url('Police/DroidSans-webfont.ttf') format('truetype'),
+         url('Police/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('Police/Raleway-Light-webfont.eot');
+    src: url('Police/Raleway-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Police/Raleway-Light-webfont.woff') format('woff'),
+         url('Police/Raleway-Light-webfont.ttf') format('truetype'),
+         url('Police/Raleway-Light-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
