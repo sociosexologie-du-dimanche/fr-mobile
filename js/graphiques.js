@@ -48,7 +48,8 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
     $(function() {
   $('#couple').highcharts({
     chart: {
-      type: 'bar'
+      type: 'bar',
+    backgroundColor : null
     },
     colors: ['#CBA148', '#107671', '#004C59'],
     title: {
@@ -119,11 +120,11 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
 });
 
 // Nombre
-(function(){
     $(function () {
     $('#nombre').highcharts({
         chart: {
-            type: 'bar'
+            type: 'bar',
+            backgroundColor : null
         },
              		colors: ['#004C59','#107671'],
 
@@ -161,13 +162,14 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
         }]
     });
 });
-})();
 
 //Polsodo
-(function(){
     $(function () {
     $('#polsodo').highcharts({ 
-     		colors: ['#CBA148', '#107671', '#004C59'],
+        chart : {
+            backgroundColor : null
+        },
+        colors: ['#CBA148', '#107671', '#004C59'],
         title: {
             text: '',
             x: -20 //center
@@ -200,10 +202,11 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
             layout: 'vertical',
             align: 'center',
             verticalAlign: 'bottom',
-            borderWidth: 0
+            borderWidth: 0,
+            width : 300 
         },
         series: [{
-            name: 'Ont déjà eu une relation sexuelle avec plus de deux personnes en même temps',
+            name: 'Ont déjà eu une relation sexuelle avec <br/>plus de deux personnes en même temps',
             data: [22, 17, 16, 13, 14, 21],
             visible : false
         }, {
@@ -220,24 +223,21 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
     });
 });
 
-
-})();
-
 // Treemap
-(function(){
     $(function () {
     $('#treemap').highcharts({
     		chart : {
-        	type : 'treemap'
-        },
+        	   type : 'treemap',
+                backgroundColor : null
+            },
     		plotOptions : {
         	treemap : {
-							allowDrillToNode : true,
-              interactByLeaf : true,
-              layoutAlgorithm : 'stripes',
-              tooltip : {
-              	pointFormat : '<b>{point.name}</b>'
-              }
+                allowDrillToNode : true,
+                interactByLeaf : true,
+                layoutAlgorithm : 'stripes',
+                tooltip : {
+                    pointFormat : '<b>{point.name}</b>'
+                }
             }
         },
         series: [{
@@ -370,13 +370,13 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
         }
     });
 });
-})();
 
 // vieillir
     $(function () {
     $('#vieillir').highcharts({
         chart: {
-            type: 'area'
+            type: 'area',
+            backgroundColor : null
         },
         colors:['rgba(248,215,201,1)','rgba(0,146,185,0.3)','rgba(203,161,72,0.5)'],
         legend : {
