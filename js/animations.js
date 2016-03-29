@@ -8,10 +8,10 @@
                 nom : 'Celui qui était ultramotivé depuis le début',
                 lien : 'https://www.linkedin.com/in/ptanneau' ,
             },{
-                nom : "Celle qui a fait preuve d'un soutien psychologique sans faille",
+                nom : "Celle dont la maman parle très bien anglais",
                 lien : 'https://fr.linkedin.com/in/kim-montalibet-1a01a265' ,
             },{
-                nom :'Celui qui aime bien coder la nuit',
+                nom : 'Celui qui aime bien coder la nuit',
                 lien : 'https://fr.linkedin.com/in/romaindamian' ,
             }
         ];

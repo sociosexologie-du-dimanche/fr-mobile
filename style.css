@@ -30,7 +30,7 @@ nav {
     position : absolute ;
 	background:#FFD6DD;
     padding : 5px 10% ;
-    font-size : 0.9em ;
+    font-size : 0.8em ;
     z-index: 10 ;
     box-shadow: 0 0 10px rgba(0,0,0,0.6) ;
 }
@@ -45,8 +45,19 @@ nav div {
     box-sizing: padding-box ;
     padding : 10px 5px 10px 0px;
     display : inline-block;
-    width : 46% ;
+    width : 30% ;
     text-align : center ;
+}
+
+#Uk {
+    position : absolute ;
+    right : 10px ;
+    background : url('Images/ukflag.jpg') no-repeat top left ;
+    width : 40px ;
+    height : 30px ;
+}
+#Uk:hover {
+    right : 8px ;
 }
 
 /* Footer */
@@ -73,6 +84,20 @@ footer a {
 
 #contact a {
     margin-left : 10px ;
+}
+
+
+#buttons {
+    width : 170px ;
+    margin : 10px auto 20px auto ;
+}
+
+#buttons img {
+width: 28px;
+padding: 1px;
+border: 0;
+box-shadow: 0;
+display: inline;
 }
 /* Fin footer */
 
@@ -114,7 +139,29 @@ footer a {
 
 
 
+#quizz6 .commentaire,#quizz6 .infographie {
+    display:table-cell;
+    width: 50% ;
+    padding-top : 170px ;
+    margin : 10px auto ;
+}
 
+#quizz6 .infographie p {
+    text-align: center ;
+    padding : 10px 20px 20px 30px ;
+}
+#quizz6 .commentaire p {
+    text-align: center ;
+    padding : 10px 30px 20px 20px ;
+}
+
+#quizz6 .infographie {
+    background: url('Images/cohab.png') no-repeat top center ;
+}
+
+#quizz6 .commentaire {
+    background: url('Images/noncohab.png') no-repeat top center ;
+}
 
 /* Identités pour les graphiques et autres animations */
 #listePam {
@@ -159,42 +206,62 @@ footer a {
     background: linear-gradient(rgba(255,255,255,0),white),url('Images/capotes.jpg') no-repeat center center fixed ;
 }
 .bloc_histoire:nth-of-type(2) {
-    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/priest2.jpg') no-repeat center center fixed ;
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/LME.jpg') no-repeat center center fixed ;
     background-size : cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 .bloc_histoire:nth-of-type(3) {
-    background: linear-gradient(white,rgba(255,255,255,0),white), url('Images/blueV.jpg') no-repeat center center  fixed  ;
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/priest2.jpg') no-repeat center center fixed ;
     background-size : cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 .bloc_histoire:nth-of-type(4) {
-    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/titanic.jpg') no-repeat center center fixed ;
+    background: linear-gradient(white,rgba(255,255,255,0),white), url('Images/blueV.jpg') no-repeat center center  fixed  ;
     background-size : cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 .bloc_histoire:nth-of-type(5) {
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/titanic.jpg') no-repeat center center fixed ;
+    background-size : cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.bloc_histoire:nth-of-type(6) {
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/AHX.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.bloc_histoire:nth-of-type(7) {
     background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/EWS.jpg') no-repeat center center fixed ;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
-.bloc_histoire:nth-of-type(6) {
+.bloc_histoire:nth-of-type(8) {
     background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/VCB.jpg') no-repeat center center fixed ;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    
+}.bloc_histoire:nth-of-type(9) {
+    background: linear-gradient(white,rgba(255,255,255,0),white),url('Images/HEM.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
-
 .titre {
     font-family: 'poetsen', 'Gill Sans', Arial, sans-serif;
     display : block ;
