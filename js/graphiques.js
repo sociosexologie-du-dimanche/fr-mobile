@@ -208,11 +208,9 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
         series: [{
             name: 'Ont déjà eu une relation sexuelle avec <br/>plus de deux personnes en même temps',
             data: [22, 17, 16, 13, 14, 21],
-            visible : false
         }, {
             name: 'Ont déjà eu une relation homosexuelle',
             data: [16, 15, 18, 11, 10, 15],
-            visible : false
         }, {
             name: 'Ont déjà pratiqué la pénétration anale',
             data: [55, 53, 51, 49, 50, 57]
@@ -232,8 +230,7 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
             },
     		plotOptions : {
         	treemap : {
-                allowDrillToNode : true,
-                interactByLeaf : true,
+                allowDrillToNode : false,
                 layoutAlgorithm : 'stripes',
                 tooltip : {
                     pointFormat : '<b>{point.name}</b>'
@@ -412,12 +409,11 @@ alignerImages(imagesAthees,atheeOui,atheeNon,4) ;
             }
         },
         series: [{
-            name: 'Au moins deux fois par semaine',
+            name: 'Au moins deux fois <br/>par semaine',
             data: [33,31,21]
         },{
-            name: 'Environ une fois par semaine',
+            name: 'Environ une fois <br/>par semaine',
             data: [46,46,46],
-            visible : false
         },{
             name: 'Jamais',
             data: [21,23,33]

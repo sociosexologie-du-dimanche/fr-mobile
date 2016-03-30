@@ -1,3 +1,4 @@
+// contacts
 (function(){
     var contact = document.getElementById('contact'),
         texte = "<p>Ce site a été réalisé dans le cadre du cours de visualisation de données de l'<a href='http://www.ensae.fr' target='_blank' style='margin-left:0px'>Ensae ParisTech</a>. Vous pouvez nous contacter en utilisant les liens suivants :</p>",
@@ -22,3 +23,13 @@
 
     contact.innerHTML = texte ;
 })();
+
+// ScrollTo
+$(document).ready(function() {
+				$('.scrollTo').click( function() { // Au clic sur un élément
+					var page = $(this).attr('href'); // Page cible
+					var speed = 900; // Durée de l'animation (en ms)
+					$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+					return false;
+				});
+			});
